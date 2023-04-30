@@ -18,6 +18,9 @@ function Paddle:update(dt)
     end
 end
 
+function Paddle:getCollisionPoint()
+end
+
 function Paddle:render()
     love.graphics.rectangle('fill', self.x, self.y, self.width, self.height)
 end
